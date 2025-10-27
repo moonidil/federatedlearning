@@ -3,10 +3,10 @@ import argparse
 import flwr as fl
 import torch
 
-from src.flsys.core.model import MnistNet
-from src.flsys.core.train import evaluate, train_one_epoch
-from src.flsys.data.mnist import get_partition_loaders
-from src.flsys.utils.config import TrainConfig
+from flsys.core.model import MnistNet
+from flsys.core.train import evaluate, train_one_epoch
+from flsys.data.mnist import get_partition_loaders
+from flsys.utils.config import TrainConfig
 
 
 def parse_args():

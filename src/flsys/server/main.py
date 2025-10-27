@@ -6,7 +6,7 @@ import flwr as fl
 import torch
 from flwr.server.strategy import FedAvg
 
-from src.flsys.utils.config import TrainConfig
+from flsys.utils.config import TrainConfig
 
 
 def parse_args():

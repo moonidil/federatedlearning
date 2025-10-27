@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.flsys.data.mnist import dirichlet_splits, load_full
+from flsys.data.mnist import dirichlet_splits, load_full
 
 
 def test_dirichlet_splits_cover_and_disjoint():
